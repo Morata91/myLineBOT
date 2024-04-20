@@ -1,0 +1,105 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "url": "https://emupro-diary.com/kyouhei_bot/images/IMG_0548.JPG",
+                "size": "full",
+                "aspectRatio": "2:1"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "堀部 in カラオケ",
+                        "weight": "bold",
+                        "size": "xl"
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "button",
+                        "height": "sm",
+                        "action": {
+                            "type": "message",
+                            "label": "かわいい",
+                            "text": "かわいい"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "かっこいい",
+                            "text": "かっこいい"
+                        }
+                    }
+                ]
+            },
+            "styles": {
+                "header": {
+                    "backgroundColor": "#ffaaaa"
+                }
+            }
+        },
+        {
+            "type": "bubble",
+            "hero": {
+                "type": "image",
+                "url": "https://emupro-diary.com/kyouhei_bot/images/IMG_0549.JPG",
+                "size": "full",
+                "aspectRatio": "2:1"
+            },
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {
+                        "type": "text",
+                        "text": "堀部 on 飛行機",
+                        "weight": "bold",
+                        "size": "xl"
+                    }
+                ]
+            },
+            "footer": {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "button",
+                        "height": "sm",
+                        "action": {
+                            "type": "message",
+                            "label": "かわいい",
+                            "text": "かわいい"
+                        }
+                    },
+                    {
+                        "type": "button",
+                        "action": {
+                            "type": "message",
+                            "label": "かっこいい",
+                            "text": "かっこいい"
+                        }
+                    }
+                ]
+            },
+            "styles": {
+                "header": {
+                    "backgroundColor": "#ffaaaa"
+                }
+            }
+        }
+    ]
+}
