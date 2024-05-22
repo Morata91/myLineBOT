@@ -1,3 +1,4 @@
+import os
 import json
 from linebot.v3.messaging import (
     Configuration,
@@ -13,7 +14,7 @@ from linebot.v3.messaging import (
 
 
 
-LINE_CHANNEL_ACCESS_TOKEN = "LzGiEjzqkjBHAmTvv0VunwCt0Ma6hdYutUaamp0IhNgGS1+9OrZBfNog5gK7ce/4HfE+mi+yyPGmJLXYGvclm6GhwyvP3NSVv1cLM+jv/P16/E190BfuW1NhsPQF2kJMicJiydEZ9geZleHXidLFVgdB04t89/1O/w1cDnyilFU="
+LINE_CHANNEL_ACCESS_TOKEN = os.environ['KYOUHEIBOT_ACCESS_TOKEN']
 configuration = Configuration(access_token=LINE_CHANNEL_ACCESS_TOKEN)
 with ApiClient(configuration) as api_client:
     messaging_api = MessagingApi(api_client)

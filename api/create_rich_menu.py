@@ -1,3 +1,4 @@
+import os
 from linebot.v3.messaging import (
     MessagingApi,
     RichMenuRequest,
@@ -12,7 +13,7 @@ from linebot.v3.messaging import (
 import json
 import requests
 
-CHANNEL_ACCESS_TOKEN = "LzGiEjzqkjBHAmTvv0VunwCt0Ma6hdYutUaamp0IhNgGS1+9OrZBfNog5gK7ce/4HfE+mi+yyPGmJLXYGvclm6GhwyvP3NSVv1cLM+jv/P16/E190BfuW1NhsPQF2kJMicJiydEZ9geZleHXidLFVgdB04t89/1O/w1cDnyilFU="
+CHANNEL_ACCESS_TOKEN = os.environ['KYOUHEIBOT_ACCESS_TOKEN']
 IMAGE_PATH = "../rich_menu/0001/rich_menu_image.png"
 JSON_PATH = "../rich_menu/0001/rich_menu.json"
 

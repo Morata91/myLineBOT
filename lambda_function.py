@@ -18,7 +18,7 @@ from linebot.v3.messaging import(
     
 )
 
-# 環境変数からLINE Botのチャネルアクセストークンを取得
+# lambdaの環境変数からLINE Botのチャネルアクセストークンを取得
 LINE_CHANNEL_ACCESS_TOKEN = os.environ['LINE_CHANNEL_ACCESS_TOKEN']
 # 俺のuserID
 DEVELOPER_ID_1 = os.environ["DEVELOPER_ID_1"]
