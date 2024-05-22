@@ -1,0 +1,7 @@
+sh.md
+*.png
+/dev
+/.env
+/.git
+.DS_Store
+/.vscode
